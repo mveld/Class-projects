@@ -99,6 +99,13 @@ nav li a:hover {
     display: flex;
 }
 
-aside {
+aside,
+section {
+    padding: 5px;
     width: 75%;
+}
+
+iframe {
+    display: block;
+    margin: 2px;
 }
