@@ -53,7 +53,8 @@ h2 {
 
 li {
     color: #E8E1F0;
-    font-family: treznor;
+    font-family: 'Alata';
+    font-size: 22px;
     padding: 5px;
 
 }
@@ -74,11 +75,12 @@ ul {
 p {
     padding: 10px;
     color: #E8E1F0;
-    font-family: treznor;
+    font-family: 'Alata';
+    font-size: 22px;
 }
 
 a {
-    font-family: treznor;
+    font-family: 'Alata';
     color: #E8E1F0;
 }
 
@@ -109,10 +111,6 @@ img {
     padding: 0px;
 }
 
-@font-face {
-    font-family: treznor;
-    src: url(/final_nin/media/Reznor\ Broken.TTF);
-}
 
 .albums {
     display: flex;
