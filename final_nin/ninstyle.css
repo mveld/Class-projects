@@ -77,7 +77,7 @@ p {
     padding: 10px;
     color: #E8E1F0;
     font-family: 'Alata', system-ui;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 a {
@@ -122,8 +122,8 @@ img {
 }
 
 .albums img {
-    max-width: 45%;
-    max-height: 45%;
+    max-width: 50%;
+    height: auto;
     flex: 1 1 auto;
 
 }
