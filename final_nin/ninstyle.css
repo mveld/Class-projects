@@ -1,0 +1,251 @@
+/* global */
+#container {
+    width: 45%;
+    margin: 20px auto;
+    padding: 0px;
+    background-color: rgb(19, 14, 44);
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.multi_col {
+    display: flex;
+}
+
+
+aside {
+    padding: 0px;
+}
+
+ul {
+    color: #E8E1F0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+h1 {
+    color: #E8E1F0;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-family: "Averia Libre", system-ui;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+h2 {
+    color: #E8E1F0;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-family: "Averia Libre", system-ui;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+li {
+    color: #E8E1F0;
+    font-family: treznor;
+    padding: 5px;
+
+}
+
+ul {
+    border: #ffffff;
+    padding-left: 20px;
+    color: #E8E1F0
+}
+
+.navi {
+    padding: 0px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+
+p {
+    padding: 10px;
+    color: #E8E1F0;
+    font-family: treznor;
+}
+
+a {
+    font-family: treznor;
+    color: #E8E1F0;
+}
+
+a:hover {
+
+    color: rgb(245, 2, 99);
+    text-decoration: none;
+}
+
+footer {
+    color: #E8E1F0;
+    font-family: "Averia Libre", system-ui;
+    padding-left: 20px;
+
+
+}
+
+.nailgun {
+    width: 35%;
+    margin: auto;
+}
+
+
+img {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: treznor;
+    src: url(/final_nin/media/Reznor\ Broken.TTF);
+}
+
+.albums {
+    display: flex;
+    padding: 20px;
+    max-width: 100%;
+    flex: 1 1 auto;
+    object-fit: cover;
+}
+
+.albums img {
+    max-width: 45%;
+    max-height: 45%;
+    flex: 1 1 auto;
+
+}
+
+iframe {
+    margin: auto;
+    padding: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+}
+
+.col image {
+    width: 150%;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.col2 image {
+    width: 150%;
+}
+
+.gallery3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col3 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.col3 image {
+    width: 150%;
+}
+
+/*tablet styles*/
+
+@media (max-width: 970px) {
+    #container {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        padding: 0px;
+    }
+
+    body {
+        background-color: rgb(14, 14, 14);
+    }
+
+    .header {
+        padding: 0px;
+    }
+
+    .albums {
+        padding: 20px;
+        max-width: 100%;
+        flex: none;
+        align-items: center;
+    }
+
+    .albums img {
+        max-height: 20%;
+        max-width: 20%;
+        flex: none;
+
+
+    }
+
+}
+
+
+/*mobile */
+
+@media (max-width: 400px) {
+    #container {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        padding: 0px;
+    }
+
+    body {
+        background-color: rgb(14, 14, 14);
+    }
+
+    .header {
+        padding: 0px;
+    }
+
+    .albums {
+        padding: 20px;
+        max-width: 100%;
+        flex: none;
+        align-items: center;
+    }
+
+    .albums img {
+        max-height: 50%;
+        max-width: 50%;
+        flex: none;
+
+
+    }
+}
