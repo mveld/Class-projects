@@ -53,7 +53,7 @@ h2 {
 
 li {
     color: #E8E1F0;
-    font-family: 'Alata';
+    font-family: 'Alata', system-ui;
     font-size: 20px;
     font-size: 22px;
     padding: 5px;
@@ -76,12 +76,12 @@ ul {
 p {
     padding: 10px;
     color: #E8E1F0;
-    font-family: 'Alata';
+    font-family: 'Alata', system-ui;
     font-size: 22px;
 }
 
 a {
-    font-family: 'Alata';
+    font-family: 'Alata', system-ui;
     color: #E8E1F0;
 }
 
